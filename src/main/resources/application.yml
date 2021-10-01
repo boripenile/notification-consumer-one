@@ -1,0 +1,25 @@
+server:
+  port: 9000
+
+pangaea:
+  notify-topic:
+    name: topic1
+     
+spring:
+  kafka:
+    consumer:
+       bootstrap-servers: localhost:29092
+       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+       value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+       auto-offset-reset: earliest
+       max-partition-fetch-bytes: 1048576
+       max-poll-interval-ms: 300000
+       max-poll-records: 500
+       heartbeat-interval-ms: 3000
+       session-timeout-ms: 10000
+       fetch-max-wait-ms: 500
+       fetch-min-bytes: 16384
+       enable-auto-commit: false
+       auto-commit-interval-ms: 1000
+       isolation-level: read_committed
+          
