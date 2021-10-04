@@ -1,4 +1,4 @@
-package com.pangaea.notification.consumer.kafka;
+package com.example.notification.consumer.kafka;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

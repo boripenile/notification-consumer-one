@@ -1,4 +1,4 @@
-package com.pangaea.notification.consumer.events;
+package com.example.notification.consumer.events;
 
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
@@ -16,8 +16,8 @@ import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.pangaea.notification.consumer.kafka.CustomConsumerProperties;
-import com.pangaea.notification.consumer.kafka.TopicProperties;
+import com.example.notification.consumer.kafka.CustomConsumerProperties;
+import com.example.notification.consumer.kafka.TopicProperties;
 
 @Service
 public class ConsumerEventManager {

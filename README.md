@@ -10,7 +10,7 @@ Client of the Notification system will be responsible to:
 
 ## How it works
 
-__In order to achieve the functionalities of the Publisher, this following approach was adopted in the implementation.__
+__In order to achieve the functionalities of the Subscriber, this following approach was adopted in the implementation.__
 
 __1. Publisher exposes an api endpoint that will be used by clients for subscription. A client will subscribe to a topic (which is a category of service) providing its url which will receive notifications sent out by the publisher to the topic.__
 

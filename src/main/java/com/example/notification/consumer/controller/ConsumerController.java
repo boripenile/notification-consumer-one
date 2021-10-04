@@ -1,4 +1,4 @@
-package com.pangaea.notification.consumer.controller;
+package com.example.notification.consumer.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.pangaea.notification.consumer.events.ConsumerEventManager;
+import com.example.notification.consumer.events.ConsumerEventManager;
 
 @RestController
 public class ConsumerController {
